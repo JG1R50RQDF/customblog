@@ -1,7 +1,7 @@
 var infobox=document.getElementById("info-box");
 var btn=document.getElementById("loadButton");
 
-btn.addEventListener("load",function(){
+btn.addEventListener("click",function(){
 	var OurRequest= new XMLHttpRequest();
 	OurRequest.open("GET","https://financialmodelingprep.com/api/company/price/AAPL");
 	OurRequest.onload=function(){
