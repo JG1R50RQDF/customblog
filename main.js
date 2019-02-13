@@ -1,5 +1,5 @@
 var infobox=document.getElementById("info-box");
-var btn=document.getElementById("load_button");
+var btn=document.getElementById("loadButton");
 
 infobox.addEventListener("load",function(){
 	var OurRequest= new XMLHttpRequest();
