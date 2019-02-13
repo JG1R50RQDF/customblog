@@ -9,7 +9,7 @@
 {% include header.html %}
 {%for post in site.posts%}
 <div class="post">
-	<a href="{{site.baseurl}}{post.url}}"><h4>{{post.title}}</h4></a>
+	<a href="{{site.baseurl}}/{post.url}}"><h4>{{post.title}}</h4></a>
 	<p>{{ post.content | truncatewords: 10}}</p><a href="{{post.url}}"></a><b>Read more</b>
 </div>
 <br>
