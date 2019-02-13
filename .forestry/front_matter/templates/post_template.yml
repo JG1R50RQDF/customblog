@@ -7,5 +7,5 @@ fields:
   name: title
   label: title
 pages:
+- _posts/another-post.md
 - about.md
-- _posts/my-first-post.md
