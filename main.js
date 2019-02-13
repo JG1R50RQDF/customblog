@@ -3,7 +3,7 @@ var btn=document.getElementById("loadButton");
 
 btn.addEventListener("click",function(){
 	var OurRequest= new XMLHttpRequest();
-	OurRequest.open("GET","http://api.population.io/1.0/population/World/today-and-tomorrow/?format=json");
+	OurRequest.open("GET","https://api.population.io/1.0/population/World/today-and-tomorrow/?format=json");
 	OurRequest.onload=function(){
 		var ourData=JSON.parse(OurRequest.responseText);
 		//console.log(ourData);
