@@ -17,7 +17,7 @@ function render_data(data){
 	//console.log(data.total_population);
 	var data_string = "";
 	data_string+=("<h5>"+" Price- "+data.AAPL.price+"</h5>");
-	infobox.insertAdjacentHTML('beforeend',data_string)
+	infobox.insertAdjacentHTML('beforeend',data_string);
 
 }
 
