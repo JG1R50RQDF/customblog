@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Earnings
-permalink: /earnings/
+permalink: earnings/
 ---
 
 Fiverr - $1112
