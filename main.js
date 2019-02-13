@@ -6,7 +6,7 @@ btn.addEventListener("load",function(){
 	OurRequest.open("GET","https://financialmodelingprep.com/api/company/price/AAPL");
 	OurRequest.onload=function(){
 		var ourData=JSON.parse(OurRequest.responseText);
-		//console.log(ourData);
+		console.log(ourData);
 		render_data(ourData);
 		
 	}
