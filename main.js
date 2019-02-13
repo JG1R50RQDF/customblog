@@ -1,7 +1,6 @@
 var infobox=document.getElementById("info-box");
-var btn=document.getElementById("loadButton");
 
-btn.addEventListener("click",function(){
+infobox.addEventListener("load",function(){
 	var OurRequest= new XMLHttpRequest();
 	OurRequest.open("GET","https://api.population.io/1.0/population/World/today-and-tomorrow/?format=json");
 	OurRequest.onload=function(){
