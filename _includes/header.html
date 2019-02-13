@@ -1,0 +1,13 @@
+<div>
+<a href="{{site.url}}"><h1 class="text-center">SwiftBlog</h1></a>
+<div class="text-center">
+	{%for page in site.pages%}
+		{% if page.title %}
+		  <li class="menu-item"><a href="{{page.url}}">{{page.title}}</a></li>
+		{% endif %}
+
+		
+	{%endfor%}
+</div>
+</div>
+<hr>
