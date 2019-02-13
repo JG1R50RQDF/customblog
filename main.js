@@ -14,12 +14,9 @@ infobox.addEventListener("load",function(){
 
 
 function render_data(data){
-	console.log(data.total_population);
+	//console.log(data.total_population);
 	var data_string = "";
-
-	for (var i = 0; i<data.total_population.length; i++) {
-		data_string+=("<h5>"+data.total_population[i].date+" - "+data.total_population[i].population+"</h5>");
-	}
+	data_string+=("<h5>"+" Price- "+data.AAPL.price+"</h5>");
 	infobox.insertAdjacentHTML('beforeend',data_string)
 
 }
