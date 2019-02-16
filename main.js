@@ -1,7 +1,7 @@
 var infobox=document.getElementById("info-box");
 var btn=document.getElementById("loadButton");
 
-btn.addEventListener("click",function(){
+window.addEventListener("load",function(){
 	var OurRequest= new XMLHttpRequest();
 	OurRequest.open("GET","https://api.exchangeratesapi.io/latest?base=USD");
 	OurRequest.onload=function(){
