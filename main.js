@@ -23,7 +23,7 @@ function render_data(data){
 
 }
 
-function unloadJS("price_script"){
+function unloadJS(scriptName){
 var head = document.getElementsByTagName(‘head’).item(0);
 var js = document.getElementById(scriptName);
 js.parentNode.removeChild(js);
