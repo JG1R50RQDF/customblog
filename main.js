@@ -24,7 +24,7 @@ function render_data(data){
 }
 
 function unloadJS(scriptName){
-var head = document.getElementsByTagName(‘head’).item(0);
+//var head = document.getElementsByTagName(‘head’).item(0);
 var js = document.getElementById(scriptName);
 js.parentNode.removeChild(js);
 }
