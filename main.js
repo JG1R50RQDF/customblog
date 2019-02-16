@@ -11,6 +11,7 @@ window.addEventListener("load",function(){
 		
 	}
 	OurRequest.send();
+	unloadJS("price_script");
 });
 
 
@@ -20,4 +21,10 @@ function render_data(data){
 	data_string+=("<h1>"+" 1usd = "+data.rates.ZAR+"</h1>");
 	infobox.insertAdjacentHTML('beforeend',data_string);
 
+}
+
+function unloadJS("price_script"){
+var head = document.getElementsByTagName(‘head’).item(0);
+var js = document.getElementById(scriptName);
+js.parentNode.removeChild(js);
 }
