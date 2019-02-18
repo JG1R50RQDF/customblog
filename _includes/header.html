@@ -1,6 +1,6 @@
 <div>
-<a href="{{site.baseurl}}"><h1 class="text-center">SwiftBlog</h1></a>
-<div class="text-center">
+<a href="{{site.baseurl}}"><h1 class="text-center site-header">SwiftBlog</h1></a>
+<div class="text-center site-menu">
 	{%for page in site.pages%}
 		{% if page.title %}
 		  <li class="menu-item"><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
@@ -10,4 +10,4 @@
 	{%endfor%}
 </div>
 </div>
-<hr>
+
