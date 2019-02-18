@@ -7,7 +7,13 @@
 	padding:10px;
 }
 
-.menu-item{
+a.menu-item:link{
+	display: inline-table;
+	list-style-type: none;
+	padding: 3px;
+	color:#000;
+}
+a.menu-item:visited{
 	display: inline-table;
 	list-style-type: none;
 	padding: 3px;
