@@ -18,3 +18,16 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.site-header{
+	font-family:Courier New;
+	
+}
+
+.site-menu{
+	font-family:Courier New;
+	
+}
+body{
+	background-color:#f2f2f2;
+}
