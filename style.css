@@ -29,7 +29,8 @@
 
 a{	
 	color:#000 !important;
-	text-decoration: underline;
+	text-decoration: none;
+	border-bottom: 1px solid black;
 }
 .site-menu{
 	font-family:Courier New;
