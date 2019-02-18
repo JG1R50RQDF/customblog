@@ -11,13 +11,13 @@ a.menu-item:link{
 	display: inline-table;
 	list-style-type: none;
 	padding: 3px;
-	color:#000;
+	color:#000 !important;
 }
 a.menu-item:visited{
 	display: inline-table;
 	list-style-type: none;
 	padding: 3px;
-	color:#000;
+	color:#000 !important;
 }
 
 .center-block {
