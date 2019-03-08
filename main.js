@@ -13,7 +13,7 @@ window.addEventListener("load",function(){
 		
 	}
 	OurRequest.send();
-	unloadJS("price_script");
+
 });
 
 
