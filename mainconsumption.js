@@ -1,6 +1,7 @@
 var infobox=document.getElementById("info-box");
 
 function content_load(){
+	
 	console.log("hello");
 	var OurRequest= new XMLHttpRequest();
 	OurRequest.open("GET","https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec/consumption");
