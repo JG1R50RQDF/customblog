@@ -5,7 +5,7 @@ var btn=document.getElementById("loadButton");
 
 window.addEventListener("load",function(){
 	var OurRequest= new XMLHttpRequest();
-	OurRequest.open("GET","https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec/consumption?callback=ctrlq");
+	OurRequest.open("GET","https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec/consumption?callback%3Dctrlq&followup=https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec/consumption?callback%3Dctrlq");
 	OurRequest.send();
 
 });
