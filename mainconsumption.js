@@ -18,6 +18,7 @@ function content_load(){
 
 function render_data(data){
 	console.log(data);
+	
 // 	var data_string = "";
 // 	data_string+=("<h5>"+" Price- "+data.AAPL.price+"</h5>");
 // 	infobox.insertAdjacentHTML('beforeend',data_string);
