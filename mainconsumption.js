@@ -11,6 +11,7 @@ function content_load(){
 		render_data(ourData);
 		
 	}
+
 	OurRequest.send();
 }
 
