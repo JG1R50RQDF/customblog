@@ -5,7 +5,7 @@ var btn=document.getElementById("loadButton");
 
 window.addEventListener("load",function(){
 	var OurRequest= new XMLHttpRequest();
-	OurRequest.open("GET","https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec");
+	OurRequest.open("GET","https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec/consumption");
 	OurRequest.onload=function(){
 		var ourData=JSON.parse(OurRequest.responseText);
 		console.log(ourData);
