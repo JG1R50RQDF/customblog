@@ -6,6 +6,12 @@ var btn=document.getElementById("loadButton");
 window.addEventListener("load",function(){
 	var OurRequest= new XMLHttpRequest();
 	OurRequest.open("GET","https://script.google.com/macros/s/AKfycbyP5Rifn7Q05Qcd7CTfm-AOouFHHvUAvCVVuKSfQu-LCqJocP8/exec?key=abcdef");
+	OurRequest.onload=function(){
+		var ourData=JSON.parse(OurRequest.responseText);
+		console.log(ourData);
+// 		render_data(ourData);
+		
+	}
 	OurRequest.send();
 
 });
