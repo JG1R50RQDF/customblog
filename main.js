@@ -18,11 +18,11 @@ window.addEventListener("load",function(){
 });
 
 
-function render_data(data){
+function render_data(data_all){
 
 	var data_string = "<table style='width:100%;text-align: left;'><tr><th>Country</th><th>lrpmg</th><th>Year</th></tr>";
-	for(x=0;x<data.length;x++){
-		data_string+=("<tr><td>"+data[x].country+"</td><td>"+data[x].lrpmg+"</td><td>"+data[x].year+"</td><tr>");
+	for(x=0;x<data_all.data.length;x++){
+		data_string+=("<tr><td>"+data_all.data.[x].country+"</td><td>"+data_all.data[x].lrpmg+"</td><td>"+data_all.data[x].year+"</td><tr>");
 	}
 	
 	infobox.insertAdjacentHTML('beforeend',data_string+"</table>");
