@@ -9,7 +9,7 @@ window.addEventListener("load",function(){
 	OurRequest.onload=function(){
 		var ourData=JSON.parse(OurRequest.responseText);
 		console.log(ourData);
-// 		render_data(ourData);
+		render_data(ourData);
 		
 	}
 	OurRequest.send();
@@ -19,9 +19,9 @@ window.addEventListener("load",function(){
 
 
 function render_data(data){
-	console.log(data);
-	// var data_string = "";
+
+	var data_string = "<table style='width:100%;text-align: left;'><tr><th>Country</th><th>lrpmg</th><th>Year</th></tr>";
 	// data_string+=("<h1>"+" 1usd = "+data.rates.ZAR+"</h1>");
-	// infobox.insertAdjacentHTML('beforeend',data_string);
+	infobox.insertAdjacentHTML('beforeend',data_string+"</table>");
 
 }
