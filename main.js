@@ -21,7 +21,7 @@ window.addEventListener("load",function(){
 function render_data(data){
 
 	var data_string = "<table style='width:100%;text-align: left;'><tr><th>Country</th><th>lrpmg</th><th>Year</th></tr>";
-	// data_string+=("<h1>"+" 1usd = "+data.rates.ZAR+"</h1>");
+	data_string+=("<tr><td>Austria</td><td>18.9999</td><td>1978</td><tr>");
 	infobox.insertAdjacentHTML('beforeend',data_string+"</table>");
 
 }
