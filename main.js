@@ -17,6 +17,20 @@ window.addEventListener("load",function(){
 
 });
 
+function get_data(){
+
+	var OurRequest= new XMLHttpRequest();
+	OurRequest.open("GET","https://script.google.com/macros/s/AKfycbyk7lEvp_IW0PBMLZ0iHE3Gkw05cYW65Bs-kcuyekkMOcjNFGM/exec?sort=country");
+	OurRequest.onload=function(){
+		var ourData=JSON.parse(OurRequest.responseText);
+		console.log(ourData);
+		render_data(ourData);
+		
+	}
+	OurRequest.send();
+
+}
+
 
 function render_data(data_all){
 
@@ -28,3 +42,4 @@ function render_data(data_all){
 	infobox.insertAdjacentHTML('beforeend',data_string+"</table>");
 
 }
+setInterval(get_data, 1000*10);
